@@ -8,8 +8,8 @@ const Menu_ITEMS = [
   { nav: 1, value: '演示2' },
   { nav: 2, value: '资源' },
   { nav: 3, value: '用例' },
-  { nav: 4, value: 'README' },
-  { nav: 5, value: '机器人' },
+  { nav: 4, value: '说明' },
+  { nav: 5, value: '对话' },
 ];
 
 const Menu: React.FC = () => {

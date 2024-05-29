@@ -176,9 +176,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                   onChange={(event) => handleFileUpload(event, 'source_image')}
                 />
               </FormControl>
-              <FormDescription>
-                Upload the source image, it can be video.mp4 or picture.png
-              </FormDescription>
+              <FormDescription>上传源图片，可以是.mp4或.png</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -209,7 +207,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                 />
               </FormControl>
               <FormDescription>
-                Upload the driven audio, accepts .wav and .mp4 file
+                上传驱动音频，接受.wav和.mp4文件
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -249,7 +247,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                   </SelectContent>
                 </Select>
               </FormControl>
-              <FormDescription>Choose a face enhancer</FormDescription>
+              <FormDescription>选择面部增强器</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -288,7 +286,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                   </SelectContent>
                 </Select>
               </FormControl>
-              <FormDescription>how to preprocess the images</FormDescription>
+              <FormDescription>如何预处理图像</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -317,9 +315,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                   onChange={(event) => handleFileUpload(event, 'ref_eyeblink')}
                 />
               </FormControl>
-              <FormDescription>
-                path to reference video providing eye blinking
-              </FormDescription>
+              <FormDescription>提供眨眼的参考视频路径</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -348,9 +344,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                   onChange={(event) => handleFileUpload(event, 'ref_pose')}
                 />
               </FormControl>
-              <FormDescription>
-                path to reference video providing pose
-              </FormDescription>
+              <FormDescription>提供姿势的参考视频的路径</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -376,8 +370,7 @@ const PlaygroundInput: React.FC<InputProps> = ({ changeValue }) => {
                 </span>
               </FormLabel>
               <FormDescription>
-                can crop back to the original videos for the full body aniamtion
-                when preprocess is full
+                当预处理完成时，可以裁剪回原始视频以获得全身动画
               </FormDescription>
               <FormMessage />
             </FormItem>

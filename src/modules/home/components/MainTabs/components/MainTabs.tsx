@@ -44,12 +44,12 @@ const MainTabs: React.FC = () => {
       children: <Example />,
     },
     {
-      label: <TabLabel>README</TabLabel>,
+      label: <TabLabel>说明</TabLabel>,
       labelIcon: <FileText size={16} />,
       children: <Readme />,
     },
     {
-      label: <TabLabel>机器人</TabLabel>,
+      label: <TabLabel>对话</TabLabel>,
       labelIcon: <Bot size={16} />,
       children: <ChatBot />,
     },
